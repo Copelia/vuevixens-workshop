@@ -6,6 +6,12 @@
           <h1>My Pet Store</h1>
 					<v-btn @click="themeSwitched = !themeSwitched">Switch theme</v-btn>
         </header>
+				<v-toolbar>
+          <v-toolbar-items>
+            <v-btn to="/" flat>Home</v-btn>
+            <v-btn to="/pets" flat>Pets</v-btn>
+          </v-toolbar-items>
+        </v-toolbar>
 				<router-view></router-view>
 				<footer class="app-footer dark-brown">
           <p>123 Main Street | Smithfield, RI 90987 | 345-456-5678</p>
